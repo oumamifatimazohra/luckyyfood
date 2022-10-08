@@ -1,0 +1,222 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.body{
+  margin: 0;
+  background-color: #6c757d;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header {
+  display: flex;
+  justify-content: space-between!important;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: white;
+  height: 100px;
+}
+.Link {
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+}
+.Link:hover {
+  color: black;
+}
+.Icon{
+  margin: 5px;
+  color: black;
+}
+.Icon:hover{
+  color: black;
+}
+.Brandhero {
+  color: black;
+  display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.Brand {
+  color: red
+}
+main> .search {
+  background-image: url(/src/images/bg.857cc3e8.jpg);
+  background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+  
+}
+.text {
+  text-align: center;
+}
+.Title{
+  color: black;
+}
+.Subtit{
+  color: #27097a;
+}
+.hr {
+  width: 62%;
+  position: relative;
+  left: 260px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid #000000;
+ 
+  height: 0;
+  
+}
+
+.Sliderhero{
+  margin: 20px;
+  width: 90vw;
+  height: 80vh;
+  position: relative;
+  left: 60px;
+  background-color: #343a40;
+  border-radius: 5px;
+}
+.imgslider img {
+  width: 49vw;
+  height: 70vh;
+  margin-top: 30px;
+  display: flex;
+  border-radius: 5px;
+  position: relative;
+  left: 520px;
+
+}
+.Slidecontent {
+position: absolute;
+top:100px;
+margin: 40px;
+
+}
+.Orange {
+  color: orangered;
+}
+.Subtitle {
+  color: white;
+}
+.Price {
+  color: gold;
+}
+.Button {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 2.85rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.Cards{
+  display: flex;
+  justify-content: center;
+  background-color: #6c757d;
+  border-radius: 5px;
+}
+.Card {
+  margin: 30px;
+}
+
+footer{
+  background-color: #6c757d;
+}
+.h2{
+  text-align: center;
+}
+.foods{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card {
+width: 200px;
+background-color: #fff;
+margin: 10px;
+border-radius: 5px;
+padding-bottom: 10px;
+}
+.card-image {
+  width: 100%;
+}
+.card-body {
+  padding: 10px;
+  text-align: center;
+}
+.category {
+  color: #a1a1a1;
+}
+.Links {
+  background-color: #ffba5a;
+  color: inherit;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.container{
+  background-color: #6c757d;
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+form {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  margin-top: 100px;
+}
+input{
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+  font-size: 16px;
+}
+input:focus{
+  outline: none;
+}
+.form-control{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 400px;
+}
+.Btn{
+  border-radius: 5px;
+  cursor: pointer;
+  color: #f7f7f7;
+  background-color: #007bff;
+  border-color: #007bff;
+  margin: 0 10px;
+  padding: 0 20px;
+}
+.searchBar{
+  display: flex;
+  justify-content: center;
+}
